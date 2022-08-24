@@ -2,11 +2,11 @@ const app=require("./app.js");
 const dotenv=require('dotenv');
 const mongoose=require("mongoose");
 dotenv.config({path:'.env'});
-mongoose.connect(process.env.MONGO_URI,
+mongoose.connect("mongodb+srv://SidduTarp:R4w1AKYOGTw5sAze@cluster0.ooihiva.mongodb.net/?retryWrites=true&w=majority",
 { useNewUrlParser: true, useUnifiedTopology: true }, err => {
         console.log('connected')
 });
-app.listen(process.env.SERVER_PORT,()=>{
+app.listen(5000,()=>{
     console.log(`Back-end running at ${process.env.SERVER_PORT}`);
 })
 
