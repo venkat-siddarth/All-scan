@@ -6,7 +6,7 @@ mongoose.connect("mongodb+srv://SidduTarp:R4w1AKYOGTw5sAze@cluster0.ooihiva.mong
 { useNewUrlParser: true, useUnifiedTopology: true }, err => {
         console.log('connected')
 });
-app.listen(5000,()=>{
+app.listen(5001,()=>{
     console.log(`Back-end running at ${process.env.SERVER_PORT}`);
 })
 
