@@ -7,7 +7,7 @@ mongoose.connect("mongodb+srv://SidduTarp:R4w1AKYOGTw5sAze@cluster0.ooihiva.mong
         console.log('connected')
 });
 app.listen(8080,()=>{
-    console.log(`Back-end running at ${process.env.SERVER_PORT}`);
+    console.log(`Back-end running at 8080`);
 })
 
 
