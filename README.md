@@ -1,4 +1,4 @@
-# Auto Scan
+# All Scan
 
 ## About Project
 A web platform in which a user can select the type of MRI scan(Brain or Lung or Kidney) and upload the MRI scan of the same then the website will detect if the MRI scan is tumorous or not and displays the final result along with intermediatory results of the processing which gives user the clear view of where exactly the tumor is present
